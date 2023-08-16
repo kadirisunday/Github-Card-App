@@ -1,11 +1,11 @@
 import "./App.css"
-import Card from './components/Card';
+import CardList from './components/Card';
 
 function App() {
   return (
     <div className="App" >
       
-      <Card title="Github Card"/>
+      <CardList title="Github Card"/>
     </div>
   );
 }
